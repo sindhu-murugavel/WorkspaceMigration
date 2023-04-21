@@ -1,6 +1,6 @@
 //command to export users and groups - Complete
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
