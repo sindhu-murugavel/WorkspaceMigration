@@ -11,8 +11,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export workspace configs - Complete
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
@@ -24,8 +24,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export notebooks - Complete - had to manually remove notebooks created by users who are no longer in Databricks user list
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
@@ -36,8 +36,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export access  - Completed as part of notebooks automatically
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
@@ -48,8 +48,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export storage - Completed as part of notebooks automatically
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
@@ -60,8 +60,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export compute - Complete
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
@@ -72,8 +72,8 @@ echo $DATABRICKS_TOKEN
 
 
 //command to export jobs - Complete almost
-export DATABRICKS_HOST=https://dbc-036d5b6e-7140.cloud.databricks.com/
-export DATABRICKS_TOKEN=dapi4bf92c12079949c4fb7761e0291736a0
+export DATABRICKS_HOST=#########
+export DATABRICKS_TOKEN=########
 echo $DATABRICKS_HOST
 echo $DATABRICKS_TOKEN
 ./terraform-provider-databricks_v1.13.0 exporter -skip-interactive \
